@@ -1,0 +1,31 @@
+.game {
+  text-align: center;
+  margin-top: 50px;
+}
+.game__element {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: center;
+}
+.game__card {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 24px;
+}
+.game__card.matched {
+  background-color: lightgreen;
+}
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
